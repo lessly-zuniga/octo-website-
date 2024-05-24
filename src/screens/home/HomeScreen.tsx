@@ -2,8 +2,8 @@ import React from 'react';
 import NavBar from '../../components/organisms/Navbar/Navbar.tsx';
 
 interface NavBarItem {
-  label: string;
-  onClick: () => void;
+  title: string;
+  link: string;
 }
 
 interface HomeScreenProps {
