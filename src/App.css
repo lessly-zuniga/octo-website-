@@ -1,3 +1,23 @@
+
+@font-face {
+  font-family: 'jumper-bold';
+  src: url('./assets/fonts/JumperBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'jumper-regular';
+  src: url('./assets/fonts/JumperRegular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'jumper-thin';
+  src: url('./assets/fonts/JumperThin.ttf') format('truetype');
+}
+
+body {
+  font-family: 'jumper-regular', sans-serif;
+}
+
 .App {
   text-align: center;
 }

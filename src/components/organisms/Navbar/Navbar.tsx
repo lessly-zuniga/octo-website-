@@ -29,7 +29,7 @@ const NavBar: React.FC<NavBarProps> = ({ items }) => {
       </div>
       <div>
         <button className="navbar-button" onClick={() => {}}>
-          login
+          Log in
         </button>
         <button className="quote-button" onClick={() => {}}>
           Get a quote
