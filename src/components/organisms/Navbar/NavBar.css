@@ -6,6 +6,7 @@
     position: absolute;
     width: -webkit-fill-available;
     z-index: 1;
+    flex-wrap: wrap;
   }
   
   .navbar-buttons {
@@ -32,4 +33,3 @@
     font-family: 'jumper-bold';
     font-size: 18px;
   }
-  

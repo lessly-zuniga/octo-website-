@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../../components/organisms/Navbar/Navbar.tsx";
 import "./Home.css";
+import familyImg from "../../assets/images/family-img.png";
 
 interface NavBarItem {
   title: string;
@@ -8,8 +9,8 @@ interface NavBarItem {
 }
 
 interface HomeTitle {
-  'header-title': string;
-  'header-cta': string;
+  "header-title": string;
+  "header-cta": string;
 }
 
 interface HomeScreenProps {
@@ -19,23 +20,13 @@ interface HomeScreenProps {
 
 const HomeScreen: React.FC<HomeScreenProps> = ({ navBarItems, title }) => {
   const applyStylesToHTML = (htmlString: string) => {
-    const tempElement = document.createElement('div');
-    tempElement.innerHTML = htmlString;
-    
-    const textContent = tempElement.textContent || tempElement.innerText || '';
-    
-    const splitText = textContent.split('just');
-    const beforeJust = splitText[0];
-    const afterJust = splitText[1];
-
     return (
-      <p className="styled-text">
-        <span className="green-text">{beforeJust}</span>
-        <span className="purple-bold-text">just</span>
-        <span className="green-text">{afterJust}</span>
-      </p>
-    );    
-  }
+      <p
+        className="styled-text"
+        dangerouslySetInnerHTML={{ __html: htmlString }}
+      />
+    );
+  };
 
   return (
     <div className="home-screen">
@@ -43,7 +34,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ navBarItems, title }) => {
       <div className="home-container ">
         <div className="green-section">
           <div className="green-container">
-            {applyStylesToHTML(title['header-title'])}
+            {applyStylesToHTML(title["header-title"])}
             <button className="custom-button" onClick={() => {}}>
               <img
                 alt="Talk to an agent today"
@@ -52,12 +43,25 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ navBarItems, title }) => {
               />
               Talk to an agent today!
             </button>
-            <div className="section-bottom-green">
-              <p className="purple-text">As seen on </p>
-            </div>
           </div>
+          <div className="section-bottom-green">
+            <div className="line-horizontal"></div>
+            <div className="line-vertical"></div>
+            <div className="arrow"></div>
+            <div className="text-container">
+              <p className="purple-text">As seen on</p>
+            </div>
+            <div className="text-container-triangle" />
+          </div>
+          <div className="section-bottom-green-triangle" />
         </div>
-        <div className="purple-section"></div>
+        <div className="purple-section">
+          <img
+            alt="Talk to an agent today"
+            src={familyImg}
+            className="bg-img"
+          />
+        </div>
       </div>
     </div>
   );
