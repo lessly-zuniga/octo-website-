@@ -13,19 +13,18 @@
   width: 52%;
   position: relative;
   display: flex;
-  justify-content: center;
-  padding-top: 10%;
 }
 
 .green-container {
-  padding-inline: 12%;
+  padding: 55px;
+  margin-top: 10%;
 }
 
 .custom-button {
   background-color: #eafe6c;
   color: #41471d;
-  padding: 15px 15px;
-  font-family: "jumper-bold";
+  padding: 10px 25px 10px 15px;
+  font-family: "lota-grotesque-alt2-bold";
   font-size: 18px;
   border: none;
   box-shadow: 8px 8px 0px #d2aae4, 8px 8px 0px #d2aae4;
@@ -37,7 +36,7 @@
 
 .button-icon {
   border-radius: 100px;
-  margin-inline: 10px 20px;
+  margin-inline: 0px 20px;
   width: 40px;
   height: 40px;
 }
@@ -95,30 +94,32 @@
   margin: 0;
 }
 
-.section-bottom-green p {
+.purple-text {
   position: fixed;
   left: 0;
-  padding: 18px 25px;
+  padding: 28px 60px 25px;
   color: #f6fcd5;
-  z-index: 2;
+  font-family: "makro-black";
+  font-size: 20px;
 }
 
 .text-container-triangle {
   border-right: 6vw solid transparent;
   border-bottom: 8.5vh solid #d2aae4;
-  width: 150px;
+  width: 220px;
 }
 
 .styled-text {
   color: #eafe6c;
   font-family: "jumper-thin";
-  font-size: 3rem;
+  font-size: 3.5rem;
+  width: 450px;
 }
 
 .title-accent {
   color: #d2aae4;
   font-family: "jumper-bold";
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: bold;
 }
 
@@ -127,7 +128,6 @@
   bottom: 0;
   right: 0;
   width: 100%;
-  height: auto;
 }
 .section-bottom-green {
   position: absolute;
@@ -140,8 +140,8 @@
 .line-horizontal {
   position: absolute;
   margin-top: 25px;
-  left: 32%;
-  width: 30%;
+  left: 15vh;
+  width: 64.5%;
   height: 2px;
   background-color: #d2aae4;
 }
@@ -149,7 +149,7 @@
 .line-vertical {
   position: absolute;
   margin-top: 25px;
-  left: 62%;
+  left: 80%;
   transform: translateX(-50%);
   width: 2px;
   height: 15%;
@@ -159,11 +159,28 @@
 .arrow {
   position: absolute;
   margin-top: 45px;
-  left: 62%;
+  left: 80%;
   transform: translateX(-50%);
   width: 0;
   height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-top: 10px solid #d2aae4;
+}
+
+.text-bottom-container {
+  display: flex;
+  color: #464e21;
+  justify-content: space-between;
+  margin: 5% 0px;
+  padding: 0px 55px;
+  font-size: 22px;
+  font-family: "district-pro-black";
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.brand-icon {
+  height: 1.5rem;
 }

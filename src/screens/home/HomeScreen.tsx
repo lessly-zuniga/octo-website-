@@ -1,8 +1,8 @@
 import React from "react";
 import NavBar from "../../components/organisms/Navbar/Navbar.tsx";
 import "./Home.css";
-import familyImg from "../../assets/images/family-img.png";
-
+import { Forbes, WSJ } from "../../assets/svg/index.ts";
+import { FamilyImg } from "../../assets/images/index.ts";
 interface NavBarItem {
   title: string;
   link: string;
@@ -49,16 +49,32 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ navBarItems, title }) => {
             <div className="line-vertical"></div>
             <div className="arrow"></div>
             <div className="text-container">
-              <p className="purple-text">As seen on</p>
+              <p className="purple-text">As seen on!</p>
             </div>
             <div className="text-container-triangle" />
+            <div className="text-bottom-container">
+              <p className="tech-text">TechCrunch</p>
+
+              <img
+                alt="Talk to an agent today"
+                src={Forbes}
+                className="brand-icon"
+                style={{ marginBottom: 6, height: 18 }}
+              />
+              <img
+                alt="Talk to an agent today"
+                src={WSJ}
+                className="brand-icon"
+                style={{ width: 200 }}
+              />
+            </div>
           </div>
           <div className="section-bottom-green-triangle" />
         </div>
         <div className="purple-section">
           <img
             alt="Talk to an agent today"
-            src={familyImg}
+            src={FamilyImg}
             className="bg-img"
           />
         </div>

@@ -1,5 +1,5 @@
-import React from 'react';
-import './NavBar.css';
+import React from "react";
+import "./NavBar.css";
 
 interface NavBarItem {
   title: string;
@@ -18,14 +18,17 @@ const NavBar: React.FC<NavBarProps> = ({ items }) => {
   return (
     <nav className="navbar">
       <div className="navbar-buttons">
-        <button className="login-button" onClick={() => {}}>
-          OCTO
-        </button>
-        {items && items.map((item, index) => (
-          <button key={index} className="navbar-button" onClick={() => handleRedirect(item.link)}>
-            {item.title}
-          </button>
-        ))}
+        <p className="logo-button">octo</p>
+        {items &&
+          items.map((item, index) => (
+            <button
+              key={index}
+              className="navbar-button"
+              onClick={() => handleRedirect(item.link)}
+            >
+              {item.title}
+            </button>
+          ))}
       </div>
       <div>
         <button className="navbar-button" onClick={() => {}}>

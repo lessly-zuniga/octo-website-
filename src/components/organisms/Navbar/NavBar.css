@@ -1,35 +1,41 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 70px;
-    position: absolute;
-    width: -webkit-fill-available;
-    z-index: 1;
-    flex-wrap: wrap;
-  }
-  
-  .navbar-buttons {
-    display: flex;
-    gap: 10px;
-  }
-  
-  .navbar-button {
-    padding: 10px 20px;
-    border: none;
-    background-color: transparent;
-    color: white;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-    font-family: 'jumper-bold';
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 55px;
+  position: absolute;
+  width: -webkit-fill-available;
+  z-index: 1;
+  flex-wrap: wrap;
+}
 
-  .quote-button {
-    background-color: #464E21;
-    border: 0;
-    color: #D2AAE4;
-    padding: 20px 30px;
-    font-family: 'jumper-bold';
-    font-size: 18px;
-  }
+.logo-button {
+  font-family: "body-grotesque-large-bold";
+  color: white;
+  font-size: 32px;
+}
+
+.navbar-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-button {
+  padding: 10px 30px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  font-family: "jumper-bold";
+}
+
+.quote-button {
+  background-color: #464e21;
+  border: 0;
+  color: #d2aae4;
+  padding: 12px 20px;
+  font-family: "jumper-bold";
+  font-size: 14px;
+}

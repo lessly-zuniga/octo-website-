@@ -14,6 +14,26 @@
   src: url('./assets/fonts/JumperThin.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'district-pro-black';
+  src: url('./assets/fonts/DistrictProBlack.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'body-grotesque-large-bold';
+  src: url('./assets/fonts/BodyGrotesqueLargeRegular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'lota-grotesque-alt2-bold';
+  src: url('./assets/fonts/LotaGrotesqueAlt2Bold.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'makro-black';
+  src: url('./assets/fonts/MakroBlack.otf') format('truetype');
+}
+
 body {
   font-family: 'jumper-regular', sans-serif;
 }
