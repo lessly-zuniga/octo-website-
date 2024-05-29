@@ -1,21 +1,9 @@
 .tag-container {
-  /* background-color: pink; */
   height: auto;
   width: 90%;
   display: flex;
   font-family: "district-pro-black";
 }
-
-/* .cut-top-right {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  border-right: 8vw solid transparent;
-  border-bottom: 17vh solid transparent;
-  width: 5%;
-  height: 0vh;
-  z-index: 1;
-} */
 
 .content {
   flex-direction: row;
@@ -29,29 +17,22 @@
 
 .vertical-text-container {
   background-color: #f6fcd5;
-  /* width: 12%; */
   height: 100%;
   width: 15%;
   margin: auto;
-  /* padding: 5px; */
-  /* font-size: 18px; */
 }
 
 .vertical-text {
   transform: rotate(-90deg);
-     /* flex-direction: row; */
-     align-items: center;
-     /* width: 90%; */
-     height: 100%;
-     width: 100%;
-     /* background-color: palegoldenrod; */
-     display: flex;
-     font-size: 20px;
-     margin: auto;
-     font-family: 'jumper-regular';
-     /* padding: 5px; */
-     font-size: 12px;
-     color: #464e21;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  font-size: 20px;
+  margin: auto;
+  font-family: "jumper-regular";
+  font-size: 12px;
+  color: #464e21;
 }
 
 .yellow-circle {
@@ -66,20 +47,18 @@
   top: 8px;
   position: absolute;
   left: 24%;
-  font-family: 'jumper-bold';
+  font-family: "jumper-bold";
 }
 
 .dollar {
   margin: 0;
   font-size: 18px;
-  /* font-size: 24px; */
 }
 
 .big-text {
   margin-left: 10px;
   font-size: 40px;
   color: #464e21;
-  /* font-size: 24px; */
 }
 
 .big-text p {
@@ -87,16 +66,13 @@
 }
 
 .small-text {
-    color: #464e21;
+  color: #464e21;
   margin-top: 5px;
   font-size: 18px;
-  
 }
 
 .small-text p {
   margin: 0;
-  font-family: 'Jumper', sans-serif;
+  font-family: "Jumper", sans-serif;
   font-weight: 500;
-  /* font-family: 'jumper-regular'; */
-  /* font-family: "jumper-thin"; */
 }
