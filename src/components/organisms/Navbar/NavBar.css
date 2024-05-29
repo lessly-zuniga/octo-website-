@@ -2,11 +2,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 55px;
+  padding: 0px 72px;
   position: absolute;
   width: -webkit-fill-available;
-  z-index: 1;
+  z-index: 10;
   flex-wrap: wrap;
+}
+
+.navbar-brand-container {
+  display: flex;
+}
+
+.octo-logo {
+  width: 32px;
+  height: 32px;
+  margin: auto 10px;
 }
 
 .logo-button {
@@ -17,25 +27,25 @@
 
 .navbar-buttons {
   display: flex;
-  gap: 10px;
+  gap: 30px;
 }
 
 .navbar-button {
-  padding: 10px 30px;
   border: none;
   background-color: transparent;
   color: white;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 12px;
   transition: background-color 0.3s ease;
-  font-family: "jumper-bold";
+  font-family: "jumper-regular";
 }
 
 .quote-button {
   background-color: #464e21;
+  margin: 0px 0px 0px 30px;
   border: 0;
   color: #d2aae4;
   padding: 12px 20px;
-  font-family: "jumper-bold";
+  font-family: "basic-sans-semi-bold";
   font-size: 14px;
 }

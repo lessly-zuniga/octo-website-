@@ -1,5 +1,6 @@
 import React from "react";
 import "./NavBar.css";
+import OctoLogo from "../../../assets/svg/OctoLogo.svg";
 
 interface NavBarItem {
   title: string;
@@ -7,7 +8,7 @@ interface NavBarItem {
 }
 
 interface NavBarProps {
-  items: NavBarItem[];
+  items: NavBarItem[] | undefined;
 }
 
 const NavBar: React.FC<NavBarProps> = ({ items }) => {
@@ -18,7 +19,14 @@ const NavBar: React.FC<NavBarProps> = ({ items }) => {
   return (
     <nav className="navbar">
       <div className="navbar-buttons">
-        <p className="logo-button">octo</p>
+        <div className="navbar-brand-container">
+          <img
+            alt="octo-logo"
+            src={OctoLogo}
+            className="octo-logo"
+          />
+          <p className="logo-button">octo</p>
+        </div>
         {items &&
           items.map((item, index) => (
             <button
