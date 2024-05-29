@@ -11,6 +11,7 @@
 
 .navbar-brand-container {
   display: flex;
+  align-items: center;
 }
 
 .octo-logo {
@@ -48,4 +49,48 @@
   padding: 12px 20px;
   font-family: "basic-sans-semi-bold";
   font-size: 14px;
+}
+
+.hamburger-button {
+  display: none;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0px 20px;
+  }
+
+  .navbar-buttons {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .navbar-buttons.open {
+    display: flex;
+    padding: 20px;
+  }
+
+  .hamburger-button {
+    display: block;
+  }
+
+  .navbar-brand-container {
+    flex: 1;
+  }
+
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .hamburger-button {
+    margin-left: auto;
+  }
 }
