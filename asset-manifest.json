@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/lessly-zuniga/octo-website-/static/css/main.60e19222.css",
-    "main.js": "/lessly-zuniga/octo-website-/static/js/main.d3213f39.js",
-    "static/js/453.a3261298.chunk.js": "/lessly-zuniga/octo-website-/static/js/453.a3261298.chunk.js",
-    "static/media/family-img.png": "/lessly-zuniga/octo-website-/static/media/family-img.5df00e116094d9358a1b.png",
-    "static/media/girl-img.png": "/lessly-zuniga/octo-website-/static/media/girl-img.28c18217490d26b7a4e6.png",
-    "static/media/BodyGrotesqueLargeRegular.ttf": "/lessly-zuniga/octo-website-/static/media/BodyGrotesqueLargeRegular.90b43f26498b12f1d1da.ttf",
-    "static/media/BasicSansSemiBold.ttf": "/lessly-zuniga/octo-website-/static/media/BasicSansSemiBold.ab63e2b70e9716e648a6.ttf",
-    "static/media/LotaGrotesqueAlt2Bold.otf": "/lessly-zuniga/octo-website-/static/media/LotaGrotesqueAlt2Bold.a26984cd004996b2518c.otf",
-    "static/media/JumperBold.ttf": "/lessly-zuniga/octo-website-/static/media/JumperBold.a4840834f72579335ea4.ttf",
-    "static/media/JumperRegular.ttf": "/lessly-zuniga/octo-website-/static/media/JumperRegular.f6d8afb6fd6b181e2cff.ttf",
-    "static/media/JumperLight.ttf": "/lessly-zuniga/octo-website-/static/media/JumperLight.6583b716df31975712d7.ttf",
-    "static/media/JumperThin.ttf": "/lessly-zuniga/octo-website-/static/media/JumperThin.d72da015fd8350867c89.ttf",
-    "static/media/DistrictProBlack.otf": "/lessly-zuniga/octo-website-/static/media/DistrictProBlack.9b01840360842858b581.otf",
-    "static/media/MakroBlack.otf": "/lessly-zuniga/octo-website-/static/media/MakroBlack.23384636ad286248ec2d.otf",
-    "static/media/wsj-logo.svg": "/lessly-zuniga/octo-website-/static/media/wsj-logo.17e13c89924ea4865023c1004707a6cf.svg",
-    "static/media/forbes-logo.svg": "/lessly-zuniga/octo-website-/static/media/forbes-logo.a6c6d8f6caac560febdcebe1c0f474cc.svg",
-    "index.html": "/lessly-zuniga/octo-website-/index.html",
-    "static/media/OctoLogo.svg": "/lessly-zuniga/octo-website-/static/media/OctoLogo.e4fb35c13ae21ed0db50993921933146.svg",
-    "main.60e19222.css.map": "/lessly-zuniga/octo-website-/static/css/main.60e19222.css.map",
-    "main.d3213f39.js.map": "/lessly-zuniga/octo-website-/static/js/main.d3213f39.js.map",
-    "453.a3261298.chunk.js.map": "/lessly-zuniga/octo-website-/static/js/453.a3261298.chunk.js.map"
+    "main.css": "/octo-website-/static/css/main.1b735809.css",
+    "main.js": "/octo-website-/static/js/main.3cf70776.js",
+    "static/js/453.a3261298.chunk.js": "/octo-website-/static/js/453.a3261298.chunk.js",
+    "static/media/family-img.png": "/octo-website-/static/media/family-img.5df00e116094d9358a1b.png",
+    "static/media/girl-img.png": "/octo-website-/static/media/girl-img.28c18217490d26b7a4e6.png",
+    "static/media/BodyGrotesqueLargeRegular.ttf": "/octo-website-/static/media/BodyGrotesqueLargeRegular.90b43f26498b12f1d1da.ttf",
+    "static/media/BasicSansSemiBold.ttf": "/octo-website-/static/media/BasicSansSemiBold.ab63e2b70e9716e648a6.ttf",
+    "static/media/LotaGrotesqueAlt2Bold.otf": "/octo-website-/static/media/LotaGrotesqueAlt2Bold.a26984cd004996b2518c.otf",
+    "static/media/JumperBold.ttf": "/octo-website-/static/media/JumperBold.a4840834f72579335ea4.ttf",
+    "static/media/JumperRegular.ttf": "/octo-website-/static/media/JumperRegular.f6d8afb6fd6b181e2cff.ttf",
+    "static/media/JumperLight.ttf": "/octo-website-/static/media/JumperLight.6583b716df31975712d7.ttf",
+    "static/media/JumperThin.ttf": "/octo-website-/static/media/JumperThin.d72da015fd8350867c89.ttf",
+    "static/media/DistrictProBlack.otf": "/octo-website-/static/media/DistrictProBlack.9b01840360842858b581.otf",
+    "static/media/MakroBlack.otf": "/octo-website-/static/media/MakroBlack.23384636ad286248ec2d.otf",
+    "static/media/wsj-logo.svg": "/octo-website-/static/media/wsj-logo.17e13c89924ea4865023c1004707a6cf.svg",
+    "static/media/forbes-logo.svg": "/octo-website-/static/media/forbes-logo.a6c6d8f6caac560febdcebe1c0f474cc.svg",
+    "index.html": "/octo-website-/index.html",
+    "static/media/OctoLogo.svg": "/octo-website-/static/media/OctoLogo.e4fb35c13ae21ed0db50993921933146.svg",
+    "main.1b735809.css.map": "/octo-website-/static/css/main.1b735809.css.map",
+    "main.3cf70776.js.map": "/octo-website-/static/js/main.3cf70776.js.map",
+    "453.a3261298.chunk.js.map": "/octo-website-/static/js/453.a3261298.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60e19222.css",
-    "static/js/main.d3213f39.js"
+    "static/css/main.1b735809.css",
+    "static/js/main.3cf70776.js"
   ]
 }
