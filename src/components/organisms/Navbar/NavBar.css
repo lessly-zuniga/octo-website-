@@ -71,6 +71,7 @@
     width: 100%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(35px);
   }
 
   .navbar-buttons.open {
@@ -92,5 +93,9 @@
 
   .hamburger-button {
     margin-left: auto;
+  }
+
+  .quote-button {
+    margin: 0px;
   }
 }

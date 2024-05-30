@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../../components/organisms/Navbar/Navbar.tsx";
 import "./Home.css";
 import { Forbes, WSJ } from "../../assets/svg/index.ts";
-import { FamilyImg } from "../../assets/images/index.ts";
+import { FamilyImg, Girl } from "../../assets/images/index.ts";
 import Tag from "../../components/molecules/Tag/Tag.tsx";
 
 interface NavBarItem {
@@ -44,7 +44,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({
               <button className="custom-button" onClick={() => {}}>
                 <img
                   alt="Talk to an agent today"
-                  src="https://www.natalben.com/sites/default/files/inline-images/ciclo-paso-a-paso.jpg"
+                  src={Girl}
                   className="button-icon"
                 />
                 {buttonTitle}
