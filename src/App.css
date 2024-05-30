@@ -1,3 +1,52 @@
+@font-face {
+  font-family: "jumper-bold";
+  src: url("./assets/fonts/JumperBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "jumper-regular";
+  src: url("./assets/fonts/JumperRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "jumper-light";
+  src: url("./assets/fonts/JumperLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "jumper-thin";
+  src: url("./assets/fonts/JumperThin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "district-pro-black";
+  src: url("./assets/fonts/DistrictProBlack.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "body-grotesque-large-bold";
+  src: url("./assets/fonts/BodyGrotesqueLargeRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "lota-grotesque-alt2-bold";
+  src: url("./assets/fonts/LotaGrotesqueAlt2Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "makro-black";
+  src: url("./assets/fonts/MakroBlack.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "basic-sans-semi-bold";
+  src: url("./assets/fonts/BasicSansSemiBold.ttf") format("truetype");
+}
+
+body {
+  font-family: "jumper-regular", sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -7,32 +56,4 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

@@ -1,0 +1,101 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 72px;
+  position: absolute;
+  width: -webkit-fill-available;
+  z-index: 10;
+  flex-wrap: wrap;
+}
+
+.navbar-brand-container {
+  display: flex;
+  align-items: center;
+}
+
+.octo-logo {
+  width: 32px;
+  height: 32px;
+  margin: auto 10px;
+}
+
+.logo-button {
+  font-family: "body-grotesque-large-bold";
+  color: white;
+  font-size: 32px;
+}
+
+.navbar-buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+  font-family: "jumper-regular";
+}
+
+.quote-button {
+  background-color: #464e21;
+  margin: 0px 0px 0px 30px;
+  border: 0;
+  color: #d2aae4;
+  padding: 12px 20px;
+  font-family: "basic-sans-semi-bold";
+  font-size: 14px;
+}
+
+.hamburger-button {
+  display: none;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0px 20px;
+  }
+
+  .navbar-buttons {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(35px);
+  }
+
+  .navbar-buttons.open {
+    display: flex;
+    padding: 20px;
+  }
+
+  .hamburger-button {
+    display: block;
+  }
+
+  .navbar-brand-container {
+    flex: 1;
+  }
+
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .hamburger-button {
+    margin-left: auto;
+  }
+
+  .quote-button {
+    margin: 0px;
+  }
+}
