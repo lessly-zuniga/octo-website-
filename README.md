@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Visual Implementation from Dribble Design
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img width="907" alt="Captura de pantalla 2024-05-30 a la(s) 11 51 27 a m" src="https://github.com/lessly-zuniga/octo-website-/assets/51216464/2c5c82c6-05cc-430d-b26e-73d506c480b4">
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Introduction
 
-### `npm start`
+This project is a visual implementation inspired by a design obtained from Dribble for desktop devices. The mobile version is an adaptation that utilizes available resources, as there was no design specifically tailored for mobile resolutions. All text content, including the navigation bar, title, and main button text, is dynamically retrieved from an endpoint. Additionally, all assets such as images, assets, fonts, and colors were selected individually due to the absence of communication with external sources.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
+## Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Desktop Version
 
-### `npm test`
+### Mobile Version
+![image](https://github.com/lessly-zuniga/octo-website-/assets/51216464/e3c97095-4bf9-4014-90dc-6c6f5d9ce9d1)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+---
+## Characteristics
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Dynamic Content:** Text content, including navigation bar elements, title, and button text, is obtained from an external endpoint.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Responsive Design:** The implementation is optimized for mobile and desktop devices, offering an intuitive experience on different screen sizes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Custom Assets:** All images, assets, fonts, and colors have been carefully selected to align with the visual aesthetic of the project.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React JS with TypeScript:** Developed the project using React JS with TypeScript for efficient and type-safe coding.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **CSS:** Styled the components using CSS for a visually appealing design.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
