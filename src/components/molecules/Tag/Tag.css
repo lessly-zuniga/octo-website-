@@ -13,13 +13,14 @@
   background-color: white;
   display: flex;
   justify-content: center;
+  justify-content: end;
+  padding: 0px 20%;
 }
 
 .vertical-text-container {
   background-color: #f6fcd5;
   height: 100%;
-  width: 15%;
-  margin: auto;
+  position: absolute;
 }
 
 .vertical-text {
@@ -36,17 +37,17 @@
 }
 
 .yellow-circle {
-  width: 45px;
-  height: 45px;
+  width: 47px;
+  height: 47px;
   background-color: #eafe6c;
   color: #464e21;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 8px;
+  top: 12px;
   position: absolute;
-  left: 24%;
+  left: 27%;
   font-family: "jumper-bold";
 }
 
@@ -57,7 +58,7 @@
 
 .big-text {
   margin-left: 10px;
-  font-size: 40px;
+  font-size: 42px;
   color: #464e21;
 }
 
@@ -67,7 +68,6 @@
 
 .small-text {
   color: #464e21;
-  margin-top: 5px;
   font-size: 18px;
 }
 
