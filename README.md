@@ -8,10 +8,14 @@
 
 This project is a visual implementation inspired by a design obtained from Dribble for desktop devices. The mobile version is an adaptation that utilizes available resources, as there was no design specifically tailored for mobile resolutions. All text content, including the navigation bar, title, and main button text, is dynamically retrieved from an endpoint. Additionally, all assets such as images, assets, fonts, and colors were selected individually due to the absence of communication with external sources.
 
+[Link of the original design on dribbble](https://dribbble.com/shots/19125909-Octo-Website)
+
 ---
 ## Screenshots
 
 ### Desktop Version
+<img width="1440" alt="Captura de pantalla 2024-05-30 a la(s) 10 07 34 p m" src="https://github.com/lessly-zuniga/octo-website-/assets/51216464/b25bd222-a184-48fa-9d8a-d15a0c8ba0aa">
+
 
 ### Mobile Version
 ![image](https://github.com/lessly-zuniga/octo-website-/assets/51216464/e3c97095-4bf9-4014-90dc-6c6f5d9ce9d1)
