@@ -43,6 +43,7 @@
   height: 40px;
   object-fit: cover;
   background-color: #d2aae4;
+  cursor: pointer;
 }
 
 .purple-section {
@@ -50,7 +51,6 @@
   height: 100vh;
   width: 47%;
   position: relative;
-  overflow: hidden;
 }
 
 .purple-section::before {
@@ -161,7 +161,7 @@
 
 .line-horizontal-vertical-container {
   position: relative;
-  top: 3vh;
+  top: 25px;
 }
 
 .line-horizontal {
@@ -186,7 +186,7 @@
 .arrow {
   position: absolute;
   top: 40px;
-  right: 19.4%;
+  right: calc(20% - 3.9px);
   width: 0;
   height: 0;
   border-left: 6px solid transparent;
@@ -215,10 +215,10 @@
 .home-tag-container {
   display: flex;
   background-color: white;
-  height: 135px;
+  height: 145px;
   width: 310px;
   position: absolute;
-  left: 51%;
+  left: -55px;
   top: 15%;
   z-index: 5;
   overflow: hidden;
@@ -259,12 +259,19 @@
   }
 
   .section-bottom-green {
-    position: relative;
     height: auto;
   }
 
+  .line-horizontal-vertical-container {
+    display: none;
+  }
+
   .green-container {
-    padding: 80px 20px;
+    padding: 0px 20px 20px;
+    display: table-row;
+    align-content: start;
+
+    margin: 10% auto;
   }
 
   .purple-text {
@@ -283,19 +290,14 @@
   }
 
   .bg-img {
-    position: relative;
-    max-height: none;
-    height: 100%;
-    margin: 25px 0px;
+    max-height: 90%;
   }
 
   .home-tag-container {
-    left: 0;
-    top: 26%;
-    bottom: 0;
+    left: 10px;
+    right: 10px;
+    top: 19%;
     margin: auto;
-    right: 0;
-    width: 80%;
   }
 
   .home-tag-container::after {
@@ -314,7 +316,7 @@
   }
 
   .button-icon {
-    margin: 0 0 10px 0;
+    margin: 0 10px 0px 0;
   }
 
   .styled-text,
@@ -322,6 +324,7 @@
     width: 100%;
     font-size: 1.5rem;
     text-align: center;
+    margin-top: 20vh;
   }
 
   .section-bottom-green-triangle {

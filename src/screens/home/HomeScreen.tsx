@@ -34,9 +34,6 @@ const HomeScreen: React.FC<HomeScreenProps> = ({
     <div className="home-screen">
       <NavBar items={navBarItems} />
       <div className="home-container">
-        <div className="home-tag-container">
-          <Tag />
-        </div>
         <div className="green-section">
           <div className="green-container">
             {title && applyStylesToHTML(title)}
@@ -82,6 +79,9 @@ const HomeScreen: React.FC<HomeScreenProps> = ({
           <div className="section-bottom-green-triangle" />
         </div>
         <div className="purple-section">
+          <div className="home-tag-container">
+            <Tag />
+          </div>
           <img
             alt="Talk to an agent today"
             src={FamilyImg}

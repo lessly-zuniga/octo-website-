@@ -29,6 +29,15 @@
 .navbar-buttons {
   display: flex;
   gap: 30px;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;
+}
+
+.left-button {
+  gap: 30px;
+  display: flex;
+  margin-left: 5%;
 }
 
 .navbar-button {
@@ -63,15 +72,17 @@
 @media (max-width: 768px) {
   .navbar {
     padding: 0px 20px;
+    flex-direction: column;
   }
 
   .navbar-buttons {
     display: none;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(35px);
+    margin-top: 10px;
   }
 
   .navbar-buttons.open {
@@ -81,21 +92,24 @@
 
   .hamburger-button {
     display: block;
+    margin-left: auto;
   }
 
   .navbar-brand-container {
-    flex: 1;
-  }
-
-  .navbar {
+    width: 100%;
     justify-content: space-between;
-  }
-
-  .hamburger-button {
-    margin-left: auto;
   }
 
   .quote-button {
     margin: 0px;
+  }
+
+  .left-button,
+  .right-button {
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 0;
   }
 }

@@ -15,7 +15,6 @@ const NavBar: React.FC<NavBarProps> = ({ items }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleRedirect = (url: string) => {
-    console.log("/", 'url', url );
     window.location.href = url;
   };
 
@@ -33,22 +32,26 @@ const NavBar: React.FC<NavBarProps> = ({ items }) => {
         </button>
       </div>
       <div className={`navbar-buttons ${isMenuOpen ? "open" : ""}`}>
-        {items &&
-          items.map((item, index) => (
-            <button
-              key={index}
-              className="navbar-button"
-              onClick={() => handleRedirect(item.link)}
-            >
-              {item.title}
-            </button>
-          ))}
-        <button className="navbar-button" onClick={() => handleRedirect('/')}>
-          Log in
-        </button>
-        <button className="quote-button" onClick={() => handleRedirect('/')}>
-          Get a quote
-        </button>
+        <div className="left-button">
+          {items &&
+            items.map((item, index) => (
+              <button
+                key={index}
+                className="navbar-button"
+                onClick={() => handleRedirect(item.link)}
+              >
+                {item.title}
+              </button>
+            ))}
+        </div>
+        <div className="right-button">
+          <button className="navbar-button" onClick={() => handleRedirect("/")}>
+            Log in
+          </button>
+          <button className="quote-button" onClick={() => handleRedirect("/")}>
+            Get a quote
+          </button>
+        </div>
       </div>
     </nav>
   );
