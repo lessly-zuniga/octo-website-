@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/octo-website-/static/css/main.1b735809.css",
-    "main.js": "/octo-website-/static/js/main.3cf70776.js",
+    "main.css": "/octo-website-/static/css/main.b265a91c.css",
+    "main.js": "/octo-website-/static/js/main.32ab98e5.js",
     "static/js/453.a3261298.chunk.js": "/octo-website-/static/js/453.a3261298.chunk.js",
     "static/media/family-img.png": "/octo-website-/static/media/family-img.5df00e116094d9358a1b.png",
     "static/media/girl-img.png": "/octo-website-/static/media/girl-img.28c18217490d26b7a4e6.png",
@@ -18,12 +18,12 @@
     "static/media/forbes-logo.svg": "/octo-website-/static/media/forbes-logo.a6c6d8f6caac560febdcebe1c0f474cc.svg",
     "index.html": "/octo-website-/index.html",
     "static/media/OctoLogo.svg": "/octo-website-/static/media/OctoLogo.e4fb35c13ae21ed0db50993921933146.svg",
-    "main.1b735809.css.map": "/octo-website-/static/css/main.1b735809.css.map",
-    "main.3cf70776.js.map": "/octo-website-/static/js/main.3cf70776.js.map",
+    "main.b265a91c.css.map": "/octo-website-/static/css/main.b265a91c.css.map",
+    "main.32ab98e5.js.map": "/octo-website-/static/js/main.32ab98e5.js.map",
     "453.a3261298.chunk.js.map": "/octo-website-/static/js/453.a3261298.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b735809.css",
-    "static/js/main.3cf70776.js"
+    "static/css/main.b265a91c.css",
+    "static/js/main.32ab98e5.js"
   ]
 }
